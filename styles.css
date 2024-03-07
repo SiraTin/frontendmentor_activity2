@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "figtree-Italic";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+body{
+    background-color: #F4D04E;
+    font-family: "figtree-Italic";
+}
+
+.container{
+    margin: 218px auto;
+}
+
+.card{
+    width: 384px;
+    height: 522px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.course_img{
+    border-radius: 10px;
+}
+
+.contain_detail{
+    text-align: left;
+    margin-top: 25px;
+}
+
+.highlight{
+    background-color: #F4D04E;
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.published{
+    margin-top: 20px;
+}
+
+.course{
+    padding: 24px 0;
+    font-weight: 800;
+}
+
+.course:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.course_detail{
+    color: #7F7F7F;
+    font-size: 18px;
+}
+
+.contain_img_profile{
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    gap: 9px;
+}
+
+.full_name{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 25px;
+}
